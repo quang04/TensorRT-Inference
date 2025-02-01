@@ -1,4 +1,5 @@
 # TensorRT-Inference
+How to convert to tensorRT format and run multiple tensortRT models simultaneously
 # Overview
 This project demonstrates how to convert models from other architectures to the TensorRT format to speed up inference time and shows how to run multiple models simultaneously.
 The project is currently running inference on 5 models detection and 5 models classification at same time.
