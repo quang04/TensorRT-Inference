@@ -5,7 +5,6 @@
 #include <array>
 #include <appdef.h>
 #include <memory>
-#include <optional>
 #include <mutex>
 #include <condition_variable>
 
@@ -28,8 +27,6 @@ struct TensorRTCoreObj
 };
 
 
-// use flatten array to store classify + detection
-// classifyN classifyN+1...detectionN detectionN+1
 class AppVM : public QObject
 {
     Q_OBJECT
